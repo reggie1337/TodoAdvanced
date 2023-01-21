@@ -2,8 +2,19 @@
 .title {
     font-family: sans-serif;
     font-size: xx-large;
-    text-decoration: underline;
+    
 }
+/*
+.navbar {
+    list-style-type: none;
+    background-color: lightslategray;
+    display: block;
+    height: 100%;
+    position: fixed;
+    width: 25%;
+    overflow: auto;
+}
+*/
 
 /* TODO
 implement a side bar nav menu
@@ -16,20 +27,25 @@ adjust margin left
     font-family: sans-serif;
     border-radius: 8%;
     color: black;
-    background-color: lightgreen;
     cursor: pointer;
-    margin-left: 10px;
+    display: block;
+    position: relative;
+    left: 50%;
 }
+
 /* TODO
 return and correct margin-left. current set is placeholder
 */
 .button2 {
     font-family: sans-serif;
-    color: aliceblue;
-    background-color: red;
-    margin-left: 10px;
+    color: black;
     border-radius: 8%;
     margin-top: 10px;
     cursor: pointer;
+    display: block;
+    position: relative;
+    left: 50%;
 }
+
+
 

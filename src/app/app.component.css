@@ -1,8 +1,23 @@
 
 .title {
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, sans-serif;
     font-size: xx-large;
+    /* was a cool bit of logic until ryan ruined it */
+   /* background: linear-gradient(to right,rgb(150, 27, 212), rgb(36, 142, 152));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+    border: solid 3px;
+    padding: 2px;
+    margin-right: 3px;
     
+}
+
+.add{
+    background-color: greenyellow;
+}
+
+.input {
+    margin-top: 20px;
 }
 /*
 .navbar {
